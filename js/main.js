@@ -1,0 +1,1 @@
+document.addEventListener("DOMContentLoaded",()=>{const e=document.getElementById("cursor");document.addEventListener("mousemove",t=>{e.setAttribute("style","top: "+t.pageY+"px; left: "+t.pageX+"px;")});new Swiper(".swiper",{loop:!0,direction:"horizontal",autoplay:{delay:3e3},speed:0,pagination:{el:".swiper-pagination",clickable:!0}})});
